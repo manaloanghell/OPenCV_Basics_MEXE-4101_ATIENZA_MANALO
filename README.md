@@ -1,4 +1,4 @@
-# OPenCV_Basics_Section_ATIENZA_MANALO
+# OPenCV_Basics_MEXE-4101_ATIENZA_MANALO
 
 # Reducing Noise in Photos
 
