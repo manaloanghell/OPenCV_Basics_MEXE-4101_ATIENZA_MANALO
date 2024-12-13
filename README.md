@@ -11,8 +11,6 @@ In the realm of computer vision, the presence of noise in images can significant
 This project aims to explore and implement multiple noise reduction techniques to enhance the quality of grayscale images and CT scans. By employing methods such as Median Filtering, Gaussian Blurring, and Non-Local Means (NLM), the project demonstrates how different approaches address specific noise types while preserving important image details. Using Python and OpenCV, the project's methodology involves iterative application of these techniques to achieve optimal noise reduction, particularly for medical images. The results are evaluated visually and quantitatively, showcasing the strengths and limitations of each method.
 
 ## Project Methods
-
-## Project Methods
 - **Clone and set up the project repository containing necessary image datasets and dependencies.**
   - Use Git to access the pre-organized folder structure.
   - Load grayscale images of CT scans for processing.
@@ -88,9 +86,20 @@ def reduce_noise(image, methods, kernel_size=5):
   
   ![image](https://github.com/user-attachments/assets/15129dc1-d805-4f93-a760-1770e58824b4)
 
+### Video: 
+<h5 align="center">
+</p> 
+ <a href="https://drive.google.com/file/d/1BjSn3awoFOqsAd_8_E44cSKhYpeomx94/view?usp=sharing">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e0b74f47-b346-42cd-95dc-0573035cf7ba">
+    <img src="https://github.com/user-attachments/assets/1482220f-3b80-4163-9290-c94174b40ce2" alt="Running of the program" width = 600 title="Running of the program">
+</a>   
 
 ### Results:
 1. **Case 1**: NLM successfully reduced random noise while retaining sharpness.
 2. **Case 2**: Gaussian and Median Filtering removed mixed noise but slightly blurred edges.
 3. **Case 3**: Sequential application of all methods yielded the cleanest result with minimal detail loss.
+
+## References: 
+- OpenCV Tutorial - Easy run on Colab with Code ( https://youtu.be/E3Lg4aZVCAU?si=xgf0MYFIbE3V6UgB)
+- Datasets : (https://www.algomedica.com/noise-reduction-ct-scan-gallery)
 
