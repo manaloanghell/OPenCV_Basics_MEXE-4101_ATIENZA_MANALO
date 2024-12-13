@@ -12,37 +12,33 @@ This project aims to explore and implement multiple noise reduction techniques t
 
 ## Project Methods
 
-1. Clone and set up the project repository containing necessary image datasets and dependencies.
-2. Use Git to access the pre-organized folder structure.
-3. Load grayscale images of CT scans for processing.
-4. Implement a noise reduction function in Python using OpenCV:
-   - Accept a list of methods, including Median Filtering, Gaussian Blurring, and NLM, as input parameters.
-   - Apply methods sequentially or individually based on the specified order.
+## Project Methods
+- **Clone and set up the project repository containing necessary image datasets and dependencies.**
+  - Use Git to access the pre-organized folder structure.
+  - Load grayscale images of CT scans for processing.
+
+- **Implement a noise reduction function in Python using OpenCV:**
+  - Accept a list of methods, including Median Filtering, Gaussian Blurring, and NLM, as input parameters.
+  - Apply methods sequentially or individually based on the specified order.
 
 ### Method-Specific Implementations
+- **Median Filtering:**
+  - Replace each pixel’s value with the median value of its neighborhood.
+  - Kernel size can be adjusted to tailor the filtering strength.
+- **Gaussian Blurring:**
+  - Convolve the image with a Gaussian kernel to reduce Gaussian noise.
+  - Adjust the kernel size and standard deviation for varying noise levels.
+- **Non-Local Means (NLM):**
+  - Identify and average similar patches across the image.
+  - Tune parameters such as h (filter strength), templateWindowSize, and searchWindowSize for optimal detail preservation.
+  - Comparative visualization highlighting the strengths and weaknesses of each method.
 
-#### Median Filtering:
-- Replace each pixel’s value with the median value of its neighborhood.
-- Kernel size can be adjusted to tailor the filtering strength.
+## Process Images Using Predefined Methods for Specific Test Cases
+- **Case 1:** Apply NLM to address random noise in medical images.
+- **Case 2:** Use Gaussian and Median Filtering for mixed noise types.
+- **Case 3:** Combine all methods sequentially for comprehensive noise reduction.
 
-#### Gaussian Blurring:
-- Convolve the image with a Gaussian kernel to reduce Gaussian noise.
-- Adjust the kernel size and standard deviation for varying noise levels.
-
-#### Non-Local Means (NLM):
-- Identify and average similar patches across the image.
-- Tune parameters such as h (filter strength), templateWindowSize, and searchWindowSize for optimal detail preservation.
-
-### Comparative Visualization
-- Highlight the strengths and weaknesses of each method.
-
-### Test Cases
-
-1. **Case 1**: Apply NLM to address random noise in medical images.
-2. **Case 2**: Use Gaussian and Median Filtering for mixed noise types.
-3. **Case 3**: Combine all methods sequentially for comprehensive noise reduction.
-
-### Visualization and Results
+### Visualize and Compare Results
 - Display side-by-side comparisons of original and processed images.
 - Generate plots to highlight the differences in noise reduction efficiency.
 
