@@ -69,8 +69,25 @@ def reduce_noise(image, methods, kernel_size=5):
 ```
 
 ### Images:
-- Original medical image with visible noise (CT scan).
 - Processed images showing results after Median Filtering, Gaussian Blurring, and NLM.
+  ![image](https://github.com/user-attachments/assets/45b9bc26-5bcf-4cd1-bce1-3dd69cb6e760)
+
+  ![image](https://github.com/user-attachments/assets/06d2fa1a-658a-4cd5-a124-d0b441037077)
+
+  ![image](https://github.com/user-attachments/assets/8bc82375-f520-4c0a-8511-ee3b163c5bc2)
+
+  ![image](https://github.com/user-attachments/assets/657a8aa7-9006-4b3c-b36e-2c31b785582c)
+
+  ![image](https://github.com/user-attachments/assets/f37b3452-7d8b-4467-a073-93ef879988a2)
+
+  ![image](https://github.com/user-attachments/assets/8d4e9918-98db-4c8a-a2a5-7560a67bba7e)
+
+  ![image](https://github.com/user-attachments/assets/719e8515-1661-493a-8cb5-478736262acb)
+
+  ![image](https://github.com/user-attachments/assets/bde08b1c-bf64-404e-91af-3487be7f0043)
+  
+  ![image](https://github.com/user-attachments/assets/15129dc1-d805-4f93-a760-1770e58824b4)
+
 
 ### Results:
 1. **Case 1**: NLM successfully reduced random noise while retaining sharpness.
