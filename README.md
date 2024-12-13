@@ -87,7 +87,6 @@ def reduce_noise(image, methods, kernel_size=5):
   ![image](https://github.com/user-attachments/assets/15129dc1-d805-4f93-a760-1770e58824b4)
 
 ### Video: 
-<h5 align="center">
 </p> 
  <a href="https://drive.google.com/file/d/1BjSn3awoFOqsAd_8_E44cSKhYpeomx94/view?usp=sharing">
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/e0b74f47-b346-42cd-95dc-0573035cf7ba">
